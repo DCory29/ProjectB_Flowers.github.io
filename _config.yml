@@ -1,3 +1,6 @@
+title: JOKER Project 2025
+description: CLEF 2025 JOKER Track - Automatic Humour Analysis
+
 theme: null
 remote_theme: daviddarnes/alembic@main
 
@@ -5,5 +8,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-title: JOKER Project 2025
-description: CLEF 2025 JOKER Track - Automatic Humour Analysis
+# Configuration automatique du menu d'Alembic
+navigation:
+  - title: Accueil
+    url: /
+  - title: Première Page
+    url: /First_page/
+  - title: Contact
+    url: /contact/
