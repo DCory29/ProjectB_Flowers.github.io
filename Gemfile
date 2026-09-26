@@ -1,2 +1,2 @@
-jekyll-remote-theme
+gem "jekyll-remote-theme"
 
