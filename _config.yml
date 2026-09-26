@@ -1,7 +1,8 @@
-title: JOKER Project 2025
-description: CLEF 2025 JOKER Track - Automatic Humour Analysis
+theme: null
+remote_theme: daviddarnes/alembic@main
 
 plugins:
   - jekyll-remote-theme
 
-remote_theme: daviddarnes/alembic@main
+title: JOKER Project 2025
+description: CLEF 2025 JOKER Track - Automatic Humour Analysis
