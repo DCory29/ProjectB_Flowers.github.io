@@ -1,9 +1,13 @@
+---
+layout: page
+title: Program
+---
+
 # JOKER
 <p align="center">
   <img src="./img/joker.png" width="120" height="142">
 </p>
 
-{% include navbar.md %}
 
 <br>
   <h1 align="center">CLEF 2025 JOKER Track:</h1>
