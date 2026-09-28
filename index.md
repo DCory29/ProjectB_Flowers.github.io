@@ -5,10 +5,8 @@ title: Accueil
 # Project Beautiful Flowers
 <p align="center">
 
-  
-  <img src="./img/ROSE.png" width="120" height="142">
+   <img src="./img/ROSE.png" width="120" height="142">
 </p>
-
 <br>
   <h1 align="center">THE FLOWERS:</h1>
   <h2 align="center">Second title for Flowers</h2> 
