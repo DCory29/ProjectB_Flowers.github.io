@@ -8,16 +8,16 @@ title: Accueil
 </p>
 
 <br>
-  <h1 align="center">CLEF 2025 JOKER Track:</h1>
-  <h2 align="center">Automatic Humour Analysis</h2> 
+  <h1 align="center">THE FLOWERS:</h1>
+  <h2 align="center">Second title for Flowers</h2> 
 
-## Abstract
+## Presentation of the Site
   
-  Over the last three years, the JOKER Lab series at CLEF has gathered an active community of researchers in natural language processing and information retrieval to collaborate on non-literal use of language in text. Such language can be a challenge for AI systems, but also sometimes for humans, as it requires understanding implicit cultural references and unorthodox interactions between form and meaning.  
+  If you wnat to learn some new stuff about flowers, you're in the right place!
 
 ## Introduction
     
-  Humour plays a vital role in social interaction. Understanding it, however, can be challenging for humans, often requiring a good grasp of cultural references and double meanings. State-of-the-art **artificial intelligence** (AI), **natural language processing** (NLP), and **information retrieval** (IR) models also remain largely impervious to humour or other non-literal meaning aspects of texts. This is especially true for tasks like wordplay detection or analysis, which rely on the surface structure (orthography or pronunciation) of a word; such surface-level features are not directly captured in the deep semantic embeddings of modern  AI models. They also cannot be captured by current pre-training models based on next-word prediction objectives, which tend to learn literal, statistically likely patterns in language rather than nuanced, non-literal meanings often associated with humour, wordplay, or sarcasm.
+  Did you know that flowers were means of divorce back in the days ? Humour plays a vital role in social interaction. Understanding it, however, can be challenging for humans, often requiring a good grasp of cultural references and double meanings. State-of-the-art **artificial intelligence** (AI), **natural language processing** (NLP), and **information retrieval** (IR) models also remain largely impervious to humour or other non-literal meaning aspects of texts. This is especially true for tasks like wordplay detection or analysis, which rely on the surface structure (orthography or pronunciation) of a word; such surface-level features are not directly captured in the deep semantic embeddings of modern  AI models. They also cannot be captured by current pre-training models based on next-word prediction objectives, which tend to learn literal, statistically likely patterns in language rather than nuanced, non-literal meanings often associated with humour, wordplay, or sarcasm.
     
   The JOKER Lab, now in its fourth year, aims to bring together social and computer scientists to create reusable test collections featuring wordplay and humour, and to foster work on automatic humour analysis. 
 
