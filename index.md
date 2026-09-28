@@ -2,7 +2,7 @@
 layout: page
 title: Accueil
 ---
-# JOKER
+# Project Beautiful Flowers
 <p align="center">
   <img src="./img/joker.png" width="120" height="142">
 </p>
