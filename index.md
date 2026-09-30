@@ -8,15 +8,11 @@ title: Accueil
 
 
 
-
-
-
-
    <img src="./img/ROSE.png" width="120" height="142">
 </p>
 <br>
   <h1 align="center">THE FLOWERS:</h1>
-  <h2 align="center">Second title for Flowers</h2> 
+  <h2 align="center">Poisinous Flowers</h2> 
 
 ## Presentation of the Site
   
