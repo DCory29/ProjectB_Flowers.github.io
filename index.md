@@ -33,5 +33,4 @@ title: Accueil
 
 
 ---
-**[The legend of]
 
