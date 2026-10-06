@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Première Page
+title:  🧪 The Legend of Giulia Tofana
 ---
 
-# 🧪 The Legend of Giulia Tofana
+# 🧪 Who was Giulia Tofana ?
 
-**Giulia Tofana** (c. 1620 – 1651) is a fascinating figure of 17th-century Italy, remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women lacked legal rights and were often trapped in abusive marriages, she provided a lethal escape route for hundreds of desperate wives.
+**Giulia Tofana** who was born around the year 1620 and who died in 1651 in Italy is a fascinating figure of 17th-century. She is remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women did not have many legal rights and thus were often trapped in abusive marriages. She provided a lethal escape route for hundreds of desperate wives.
 
 ## 💧 Aqua Tofana: The Perfect Weapon
 Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
@@ -17,7 +17,7 @@ Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique propertie
 ## 👥 The Network and Impact
 Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
 
-Together, they built a secretive word-of-mouth network. Historical estimates (largely derived from later trials) attribute the deaths of **over 600 men**—mostly abusive husbands—to her poison between 1633 and 1651.
+Rumor has it they built a secretive word-of-mouth network. Historical estimates (largely derived from later trials) attribute the deaths of **over 600 men**—mostly abusive husbands—to her poison between 1633 and 1651.
 
 ## ⚖️ Myth vs. Historical Reality
 While pop culture and history often blur, modern research highlights key distinctions between the myth and the historical record:
