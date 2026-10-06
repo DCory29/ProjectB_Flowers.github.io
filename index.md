@@ -26,7 +26,7 @@ title: Accueil
 
 *   *[🧪 The Legend of Giulia Tofana](./First_page)**
    🍶 Aqua Tofana 🍶
-*   *[_Sally Basset_](Second_page)**
+*   *[🪻 The Legend of Sally Bassett Symbol of Resistance 🪻](Second_page)**
 *   *[_Baba Anujka_](Third_page)**
 
 
