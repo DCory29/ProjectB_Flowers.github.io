@@ -3,16 +3,21 @@ layout: page
 title:  🧪 The Legend of Giulia Tofana 🧪
 ---
 
-# 📖 Who was Giulia Tofana ? 📖
+# 📖 The poisoner who saved hundreds of lives? 📖
 
 **Giulia Tofana** who was born around the year 1620 and who died in 1651 in Italy is a fascinating figure of 17th-century. She is remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women did not have many legal rights and thus were often trapped in abusive marriages. She provided a lethal escape route for hundreds of desperate wives.
 
+## 🏛️ Myth vs. Historical Reality 🏛️
+While pop culture and history often blur, modern research highlights key distinctions between the myth and the historical record:
+
 ## 💧 Aqua Tofana: The Perfect Weapon 💧
 Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
-* **Composition:** A lethal mixture of arsenic, lead, and belladonna.
-* **Properties:** Completely colorless, odorless, and tasteless, making it easy to blend into water or wine.
-* **Effect:** Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless.
-* **The Disguise:** The poison was sold disguised as a cosmetic face cream or in devotional vials labeled "Manna of St. Nicholas of Bari" to evade the authorities.
+She used a lethal mixture of arsenic, lead, and belladonna. Those ingredients were completely colorless, odorless, and tasteless, making it easy to blend into water or wine.
+Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless*
+
+image of fiole
+
+**The Disguise:** The poison was sold disguised as a cosmetic face cream or in devotional vials labeled "Manna of St. Nicholas of Bari" to evade the authorities.
 
 # 🥼 The Network and Impact 🥼
 Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
