@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 🪻 The Legend of Sally Bassett Symbol of Resistance 🪻
+title: 🪻 The Legend of Sally Bassett 🪻
 ---
-# Who was Sally Basset ?
+# Symbol of Resistance
 **Sarah "Sally" Bassett** (? – 1730) was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.
 
 ## 🧪 The "White Toad" and Herbal Warfare
@@ -29,23 +29,23 @@ In 2008, her status shifted from a historical criminal to an icon of freedom whe
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------
+
 *Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[Giulia's story](First_page.md)
+[Giulia's story](First_page.md) --- [Baba Anujka](Third_page)
