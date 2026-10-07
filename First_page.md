@@ -33,3 +33,6 @@ The impact of Aqua Tofana echoed through the centuries. It heavily influenced Fr
 
 ***
 *Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
+
+***
+*[Sally Basset's story](Second_page) --- [Baba Anujka](Third_page)
