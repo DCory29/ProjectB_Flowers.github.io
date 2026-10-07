@@ -3,7 +3,17 @@ layout: page
 title: 🪻 The Legend of Sally Bassett 🪻
 ---
 # Symbol of Resistance
-**Sarah "Sally" Bassett** (? – 1730) was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.
+**Sarah "Sally" Bassett** who was born around 1700 1730 was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.
+
+
+
+
+
+
+
+
+## ⚖️ Myth vs. Historical Reality
+The line between colonial records and local Bermudian folklore has blurred over nearly three centuries, creating two distinct perspectives on her fate:
 
 ## 🧪 The "White Toad" and Herbal Warfare
 In December 1729, Sally was accused of plotting to kill her granddaughter’s enslavers, Thomas and Sarah Foster, as well as an enslaved domestic woman named Nancey. The tools of the alleged crime relied heavily on traditional knowledge of regional toxins:
