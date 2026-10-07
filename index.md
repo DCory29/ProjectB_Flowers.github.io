@@ -18,7 +18,8 @@ title: Accueil
 
 
 
-> [!WARNING] > **Disclaimer:** Please be aware that the following content are either historical facts or legends; I do not condone or encourage any of these methods. Additionally, sensitive topics such as domestic violence and poisoning are discussed, which might be distressing to some readers.
+
+
 ---
 
 ### 🌿 Table of contents 🌿
@@ -26,11 +27,11 @@ title: Accueil
 
 *   *[🧪 The Legend of Giulia Tofana](./First_page)**
    🍶 Aqua Tofana 🍶
-*   *[🪻 The Legend of Sally Bassett Symbol of Resistance 🪻](Second_page)**
+*   *[🪻 The Legend of Sally Bassett🪻](Second_page)**
 *   *[_Baba Anujka_](Third_page)**
 
 
-
+> [!WARNING] > **Disclaimer:** Please be aware that the following content are either historical facts or legends; I do not condone or encourage any of these methods. Additionally, sensitive topics such as domestic violence and poisoning are discussed, which might be distressing to some readers.
 
 ---
 
