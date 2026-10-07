@@ -28,7 +28,7 @@ Nearly a century after her high-profile trial, historical digging separate the f
 ## 🌟 Legacy
 Baba Anujka remains a terrifying figure in Balkan folklore, often cited as a prime historical example of how traditional herbalism could be distorted into deadly molecular warfare. Today, criminologists study her case as one of history's most chilling examples of a contract poisoner operating entirely under the guise of a harmless grandmother.
 
-***
+---------
 *Sources & Further Reading: [All That's Interesting](https://allthatsinteresting.com/baba-anujka) & [Wikipedia](https://en.wikipedia.org/wiki/Baba_Anujka)*
-
-Go to the [Second_page](Second_page.md)
+---
+[Giulia's story](First_page)[Sally Basset](Secon_page)
