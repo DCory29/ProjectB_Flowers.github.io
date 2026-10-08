@@ -26,7 +26,7 @@ title: Accueil
 
 
 *   *[🧪 The Legend of Giulia Tofana](./First_page)**
-   🍶 Aqua Tofana 🍶
+  
 *   *[🪻 The Legend of Sally Bassett🪻](Second_page)**
 *   *[_Baba Anujka_](Third_page)**
 
