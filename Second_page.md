@@ -5,7 +5,7 @@ title: 🪻 The Legend of Sally Bassett 🪻
 <table width="100%">
   <tr>
     <td valign="top" width="60%">
-      <img src="img/SallyBasset.png" alt="Sally Basset" width="100%">
+      <img src="img/SallyBasset.png" alt="Sally Basset" width="95%">
     </td>
     <td valign="top" width="40%">
       <h3> 🔥Symbol of Resistance🔥</h3>
