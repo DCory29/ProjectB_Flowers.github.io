@@ -1,76 +1,36 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>{{ page.title }} | {{ site.title }}</title>
-  
-  <!-- Chargement des styles du thème -->
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <!-- Chargement de VOTRE CSS personnalisé (mode sombre) -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+---
+layout: page
+---
 
-  <!-- Correctif pour l'espacement et la taille des images -->
-  <style>
-    /* Empêche les images d'être géantes et les centre */
-    .post-content img {
-      max-width: 80%;       /* L'image ne dépassera pas 80% de la largeur du texte */
-      height: auto;         /* Garde les proportions de l'image */
-      display: block;       /* Permet de la centrer */
-      margin: 30px auto;    /* Crée 30px d'espace au-dessus/en-dessous et la centre horizontalement */
-      border-radius: 6px;   /* Optionnel : arrondit légèrement les bords pour un look plus propre */
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<div style="max-width: 800px; margin: 0 auto; padding: 10px 20px; text-align: right;">
+  <button id="theme-toggle" style="padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: transparent; color: inherit;">🌙 Mode Sombre</button>
+</div>
+
+{{ content }}
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    if (!toggleBtn) return;
+
+    if (localStorage.getItem('theme') === 'dark') {
+      body.classList.add('dark-mode');
+      toggleBtn.textContent = '☀️ Mode Clair';
     }
 
-    /* Ajoute de l'espace sous les paragraphes de texte */
-    .post-content p {
-      margin-bottom: 1.5rem;
-      line-height: 1.6;     /* Rend la lecture plus aérienne et agréable */
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Barre supérieure pour le bouton -->
-  <div style="max-width: 800px; margin: 0 auto; padding: 15px 20px; text-align: right;">
-    <button id="theme-toggle" style="padding: 6px 12px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc;">🌙 Mode Sombre</button>
-  </div>
-
-  <!-- Conteneur principal -->
-  <main class="container" style="max-width: 750px; margin: 0 auto; padding: 0 20px;">
-    <article class="post">
-      <header class="post-header" style="margin-bottom: 40px;">
-        <h1 class="post-title" style="font-size: 2.2rem;">{{ page.title }}</h1>
-      </header>
-      <div class="post-content">
-        {{ content }}
-      </div>
-    </article>
-  </main>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const toggleBtn = document.getElementById('theme-toggle');
-      const body = document.body;
-
-      if (!toggleBtn) return;
-
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-mode');
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      if (body.classList.contains('dark-mode')) {
         toggleBtn.textContent = '☀️ Mode Clair';
+        localStorage.setItem('theme', 'dark');
+      } else {
+        toggleBtn.textContent = '🌙 Mode Sombre';
+        localStorage.setItem('theme', 'light');
       }
-
-      toggleBtn.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        if (body.classList.contains('dark-mode')) {
-          toggleBtn.textContent = '☀️ Mode Clair';
-          localStorage.setItem('theme', 'dark');
-        } else {
-          toggleBtn.textContent = '🌙 Mode Sombre';
-          localStorage.setItem('theme', 'light');
-        }
-      });
     });
-  </script>
-</body>
-</html>
+  });
+</script>
