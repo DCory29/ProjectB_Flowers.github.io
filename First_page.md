@@ -48,7 +48,7 @@ Administered a few drops at a time over several days, it mimicked a slow, natura
   </tr>
 </table>
 
-### The Network and Impact </h3>
+### The Network and Impact
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
@@ -68,7 +68,7 @@ Rumor has it they built a secretive word-of-mouth network. Historical estimates 
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <p>The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer **Wolfgang Amadeus Mozart** famously claimed he was being poisoned with Aqua Tofana.</p>
+      <p>The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer Wolfgang Amadeus Mozart famously claimed he was being poisoned with Aqua Tofana.</p>
     </td>
     <td valign="top" width="60%">
       <img src="img/Legend.png" alt="Legend" width="100%">
