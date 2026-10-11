@@ -35,27 +35,23 @@ Legend says that when her ashes cleared, the Bermudiana (Bermuda’s national pu
  
 
 ## 💧The Herbal Warfare💧
-<table width="100%">
-  <tr>
-    <td valign="top" width="40%">
-      <p>In December 1729, Sally was accused of plotting to kill her granddaughter’s enslavers, Thomas and Sarah Foster, as well as an enslaved domestic woman named Nancey. The tools of the alleged crime relied heavily on traditional knowledge of regional toxins:
+<p align="center">
+  <img src="img/Flowers.png" alt="Flowers" width="100%">
+</p>
+In December 1729, Sally was accused of plotting to kill her granddaughter’s enslavers, Thomas and Sarah Foster, as well as an enslaved domestic woman named Nancey. The tools of the alleged crime relied heavily on traditional knowledge of regional toxins:
 She used a combination of *ratsbane* (arsenic), *manchineel root* (a highly toxic tree native to the Caribbean), and a substance referred to in court as *"white toad"*.
 Sally allegedly smuggled these lethal powders to her granddaughter, Beck, with instructions on how to lace the household's food and belongings.
 Nancey discovered the poison, fell severely ill along with the Fosters, and alerted the local colonial authorities.</p>
-    </td>
-    <td valign="top" width="60%">
-      <img src="img/AquaTofana.png" alt="Aqua Tofana" width="100%">
-    </td>
-  </tr>
-</table>
 
 
 
-<p align="center">
-  <img src="img/Legend2.png" alt="Legend2" width="60%">
-</p>
+
 
 ### 🌟 Legacy and Modern Culture
+<p align="center">
+  <img src="img/Legend2.png" alt="Legend2" width="100%">
+</p>
+
 Sally Bassett’s execution deeply shaped the cultural identity of Bermuda. Even today, an exceptionally hot summer day in Bermuda is colloquially called **"a Sally Bassett day"**—originating from the rumor that she joked about the extreme heat on her way to the stake. 
 
 In 2008, her status shifted from a historical criminal to an icon of freedom when the Bermudian government erected a 10-foot bronze monument titled **"The Spirit of Freedom"** in her honor on the grounds of the Cabinet Building in Hamilton.
