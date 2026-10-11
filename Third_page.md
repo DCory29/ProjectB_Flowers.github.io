@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Legend of Baba Anujka
+title:🥀The Story of Baba Anujka🥀
 ---
 <table width="100%">
   <tr>
