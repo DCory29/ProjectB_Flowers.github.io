@@ -26,8 +26,4 @@ title: Accueil
 > [!WARNING] > **Disclaimer:** Please be aware that the following content are either historical facts or legends; I do not condone or encourage any of these methods. Additionally, sensitive topics such as domestic violence and poisoning are discussed, which might be distressing to some readers.
 
 ---
-      }
-    });
-  });
-</script>
 
