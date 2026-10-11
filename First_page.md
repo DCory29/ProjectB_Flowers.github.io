@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "🧪 The Legend of Giulia Tofana 🧪"
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
