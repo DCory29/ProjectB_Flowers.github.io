@@ -8,15 +8,11 @@ title:  🧪 The Legend of Giulia Tofana 🧪
       <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="100%">
     </td>
     <td valign="top" width="40%">
-      <h3>*The poisoner who saved hundreds of lives 📖*</h3>
       <p>Giulia Tofana who was born around the year 1620 and who died in 1651 in Italy is a fascinating figure of the 17th-century. She is remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women did not have many legal rights and thus were often trapped in abusive marriages. She provided a lethal escape route for hundreds of desperate wives.</p>
     </td>
   </tr>
 </table>
-
-
-
-# The poisoner who saved hundreds of lives 📖
+**The poisoner who saved hundreds of lives 📖**
 
 
 
@@ -24,11 +20,13 @@ title:  🧪 The Legend of Giulia Tofana 🧪
 While pop culture and history often blur, modern research highlights key distinctions between the myth and the historical record:
 
 *The Popular Legend*
+
 According to the popular legend, she confessed to killing 600 men under brutal torture then got arrested, tortured, and publicly executed in Rome’s Campo de’ Fiori in 1659 
 She is viewed strictly as one of history’s most prolific serial killers.
 
 
 *The Historical Reality*
+
 In fact, she died peacefully in her sleep in 1651, never having been convicted.
 The famous 1659 trial actually prosecuted Gironima Spana and her network, who had inherited the formula.
 It was seen by historians as a tragic, criminal response to a *suffocating patriarchal society*.
