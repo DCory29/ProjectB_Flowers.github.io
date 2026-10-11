@@ -5,13 +5,8 @@ layout: Accueil
 
 # Project Poisonous Flowers
 <p align="center">
-   <img src="./img/Poisonous.png" width="120" height="142">
+   <img src="./img/Poisonous.png" width="320" height="342">
 </p>
-<br>
-<p align="center">
-   <img src="./img/ROSE.png" width="120" height="142">
-</p>
-<br>
  
   > *For centuries, women have been compared to flowers.*
 > *Little did they know they were not so wrong to make such an accurate comparison*
