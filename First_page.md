@@ -79,25 +79,30 @@ The impact of Aqua Tofana echoed through the centuries. It heavily influenced Fr
 [Sally Basset's story](Second_page) --- [Baba Anujka's story](Third_page)
 ---
 
-<button id="theme-toggle">🌙 Mode Sombre</button>
-
 <script>
-  const toggleBtn = document.getElementById('theme-toggle');
-  const body = document.body;
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleBtn = document.getElementById('theme-toggle');
+    const body = document.body;
 
-  if (localStorage.getItem('theme') === 'dark') {
-    body.classList.add('dark-mode');
-    toggleBtn.textContent = '☀️ Mode Clair';
-  }
+    if (!toggleBtn) return; // Sécurité si le bouton n'est pas trouvé
 
-  toggleBtn.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    if (body.classList.contains('dark-mode')) {
+    // 1. Appliquer le mode sauvegardé immédiatement au chargement de la page
+    if (localStorage.getItem('theme') === 'dark') {
+      body.classList.add('dark-mode');
       toggleBtn.textContent = '☀️ Mode Clair';
-      localStorage.setItem('theme', 'dark');
-    } else {
-      toggleBtn.textContent = '🌙 Mode Sombre';
-      localStorage.setItem('theme', 'light');
     }
+
+    // 2. Gérer le clic sur le bouton
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      if (body.classList.contains('dark-mode')) {
+        toggleBtn.textContent = '☀️ Mode Clair';
+        localStorage.setItem('theme', 'dark');
+      } else {
+        toggleBtn.textContent = '🌙 Mode Sombre';
+        localStorage.setItem('theme', 'light');
+      }
+    });
   });
 </script>
+
