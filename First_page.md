@@ -5,7 +5,7 @@ title:  🧪 The Legend of Giulia Tofana 🧪
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
-      <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="90%">
+      <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="100%">
     </td>
     <td valign="top" width="40%">
       <h3> 🔥A powerful figure🔥</h3>
