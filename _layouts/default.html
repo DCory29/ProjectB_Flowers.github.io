@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
   
-  <!-- Chargement du CSS du thème et de votre CSS -->
+ 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- SCRIPT INJECTÉ DANS LE HEAD POUR EVITER LE CHEVAUCHEMENT (ANTI-FLASH) -->
+  
   <script>
     (function() {
       if (localStorage.getItem('theme') === 'dark') {
@@ -19,28 +19,28 @@
   </script>
 
   <style>
-    /* APPLICATION IMMEDIATE DU MODE SOMBRE AU CHARGEMENT SUR LE DOCUMENT EXTRÊME */
+   
     html.dark-mode body, html.dark-mode {
-      background-color: #1a1a1a !important; /* Force votre couleur sombre de fond */
+      background-color: #1a1a1a !important; 
       color: #f5f5f5 !important;
     }
 
-    /* REDIMENSIONNEMENT DES IMAGES (EVITE LE ZOOM GÉANT) */
+    
     .post-content img, main img {
       max-width: 75% !important;
       height: auto !important;
       display: block !important;
-      margin: 35px auto !important; /* Espacement propre entre le texte et l'image */
+      margin: 35px auto !important; 
       border-radius: 6px;
     }
 
-    /* ESPACEMENT ET LECTURE DU TEXTE */
+    
     .post-content p, main p {
       margin-bottom: 1.6rem !important;
       line-height: 1.6 !important;
     }
 
-    /* ANIMATION DES FEUILLES */
+    
     .leaf-container {
       position: fixed;
       top: 0;
@@ -75,15 +75,15 @@
 </head>
 <body>
 
-  <!-- CONTENEUR DES FEUILLES -->
+  
   <div class="leaf-container" id="leaf-container"></div>
 
-  <!-- BOUTON DE CHANGEMENT DE THÈME -->
+  
   <div style="max-width: 750px; margin: 0 auto; padding: 15px 20px; text-align: right;">
     <button id="theme-toggle" style="padding: 6px 12px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: transparent; color: inherit;">🌙 Mode Sombre</button>
   </div>
 
-  <!-- CONTENEUR PRINCIPAL DE VOTRE SITE (CADRE STRUCTURÉ SANS ACCENTUATION DU ZOOM) -->
+  
   <main class="container" style="max-width: 720px; margin: 0 auto; padding: 0 20px;">
     <article class="post">
       <header class="post-header" style="margin-bottom: 30px;">
@@ -95,14 +95,14 @@
     </article>
   </main>
 
-  <!-- LE SCRIPT LOGIQUE DES ACTIONS -->
+  
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const toggleBtn = document.getElementById('theme-toggle');
       const htmlEl = document.documentElement;
       const bodyEl = document.body;
 
-      // On synchronise le bouton et le body selon l'état actuel de l'élément racine
+      
       if (htmlEl.classList.contains('dark-mode')) {
         bodyEl.classList.add('dark-mode');
         if (toggleBtn) toggleBtn.textContent = '☀️ Mode Clair';
@@ -123,7 +123,7 @@
         });
       }
 
-      // ANIMATION DES FEUILLES
+      
       const container = document.getElementById('leaf-container');
       const leaves = ['🍁', '🍂', '🍃', '🌱']; 
 
