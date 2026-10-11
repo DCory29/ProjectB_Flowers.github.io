@@ -82,4 +82,4 @@ In 2008, her status shifted from a historical criminal to an icon of freedom whe
 *Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
 
 
-[Giulia's story](First_page.md) --- [Baba Anujka](Third_page)
+[Giulia's story](First_page.md) --- [Baba Anujka's story](Third_page)
