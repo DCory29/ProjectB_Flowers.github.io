@@ -6,7 +6,7 @@ title: Accueil
 
 # Project Poisonous Flowers
 <p align="center">
-   <img src="./img/Poisonous.png" width="620" height="342">
+   <img src="./img/Poisonous.png" width="820" height="342">
 </p>
  
   > *For centuries, women have been compared to flowers.*
@@ -22,9 +22,9 @@ title: Accueil
 ### 🌿 Table of contents 🌿
 
 
-*   *[🧪 The Legend of Giulia Tofana](./First_page)*
-*   *[🪻 The Legend of Sally Bassett🪻](Second_page)*
-*   *[🥀The Story of Baba Anujka🥀_](Third_page)*
+*   *[🧪The Legend of Giulia Tofana🧪](./First_page)*
+*   *[🪻The Legend of Sally Bassett🪻](Second_page)*
+*   *[🥀The Story of Baba Anujka🥀](Third_page)*
 
 
 > [!WARNING] > **Disclaimer:** Please be aware that the following content are either historical facts or legends; I do not condone or encourage any of these methods. Additionally, sensitive topics such as domestic violence and poisoning are discussed, which might be distressing to some readers.
