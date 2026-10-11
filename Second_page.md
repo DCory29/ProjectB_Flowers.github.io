@@ -2,6 +2,7 @@
 layout: page
 title: 🪻 The Legend of Sally Bassett 🪻
 ---
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <table width="100%">
   <tr>
     <td valign="top" width="60%">
