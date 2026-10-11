@@ -15,7 +15,7 @@ title: 🥀 The Story of Baba Anujka 🥀
     </td>
   </tr>
 </table>
-**📖 The poisoner who saved hundreds of lives 📖**
+
 
 
 ### 💧The "Magic Water"💧
