@@ -42,7 +42,9 @@ In December 1729, Sally was accused of plotting to kill her granddaughter’s en
 She used a combination of *ratsbane* (arsenic), *manchineel root* (a highly toxic tree native to the Caribbean), and a substance referred to in court as *"white toad"*.
 Sally allegedly smuggled these lethal powders to her granddaughter, Beck, with instructions on how to lace the household's food and belongings.
 Nancey discovered the poison, fell severely ill along with the Fosters, and alerted the local colonial authorities.</p>
-
+<p align="center">
+  <img src="img/WhiteToad.png" alt="WhiteToad" width="100%">
+</p>
 
 
 
