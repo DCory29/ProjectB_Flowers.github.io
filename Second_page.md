@@ -2,6 +2,19 @@
 layout: page
 title: 🪻 The Legend of Sally Bassett 🪻
 ---
+<table width="100%">
+  <tr>
+    <td valign="top" width="60%">
+      <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="100%">
+    </td>
+    <td valign="top" width="40%">
+      <h3> 🔥A powerful figure🔥</h3>
+      <p>Giulia Tofana who was born around the year 1620 and who died in 1651 in Italy is a fascinating figure of the 17th-century. She is remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women did not have many legal rights and thus were often trapped in abusive marriages. She provided a lethal escape route for hundreds of desperate wives.</p>
+    </td>
+  </tr>
+</table>
+**📖 The poisoner who saved hundreds of lives 📖**
+
 # Symbol of Resistance
 **Sarah "Sally" Bassett** who was born around 1700 1730 was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.
 
