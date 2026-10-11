@@ -10,7 +10,7 @@ title: 🥀 The Story of Baba Anujka 🥀
       <img src="img/BabaAnujka.png" alt="Baba Anujka" width="90%">
     </td>
     <td valign="top" width="40%">
-      <h3> 🔥Grandma cares🔥</h3>
+      <h3> A Great Scientist</h3>
       <p>**Ana di Pištonja** (c. 1836/1838 – 1938), widely feared as **Baba Anujka** or the "Witch of Vladimirovac," was a Serbo-Romanian amateur chemist and convicted serial killer. Operating out of her home laboratory in a quiet village in modern-day Serbia, she became one of the world's oldest and most prolific female serial killers by offering a invisible chemical solution to unhappy wives.</p>
     </td>
   </tr>
