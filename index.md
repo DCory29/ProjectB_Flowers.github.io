@@ -2,7 +2,6 @@
 layout: default
 title: Accueil
 ---
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 # Project Poisonous Flowers
 <p align="center">
@@ -27,31 +26,6 @@ title: Accueil
 > [!WARNING] > **Disclaimer:** Please be aware that the following content are either historical facts or legends; I do not condone or encourage any of these methods. Additionally, sensitive topics such as domestic violence and poisoning are discussed, which might be distressing to some readers.
 
 ---
-
-<button id="theme-toggle">🌙 Mode Sombre</button>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const body = document.body;
-
-    if (!toggleBtn) return; // Sécurité si le bouton n'est pas trouvé
-
-    // 1. Appliquer le mode sauvegardé immédiatement au chargement de la page
-    if (localStorage.getItem('theme') === 'dark') {
-      body.classList.add('dark-mode');
-      toggleBtn.textContent = '☀️ Mode Clair';
-    }
-
-    // 2. Gérer le clic sur le bouton
-    toggleBtn.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
-      if (body.classList.contains('dark-mode')) {
-        toggleBtn.textContent = '☀️ Mode Clair';
-        localStorage.setItem('theme', 'dark');
-      } else {
-        toggleBtn.textContent = '🌙 Mode Sombre';
-        localStorage.setItem('theme', 'light');
       }
     });
   });
