@@ -5,7 +5,7 @@ title:  🧪 The Legend of Giulia Tofana 🧪
 
 
 <p align="left">
-  <img src="./img/GiuliaTofana.png" width="200">
+  <img src="./img/GiuliaTofana.png" width="600">
 </p>
 
 # The poisoner who saved hundreds of lives 📖
