@@ -23,7 +23,6 @@ title: Accueil
 
 
 *   *[🧪 The Legend of Giulia Tofana](./First_page)*
-  
 *   *[🪻 The Legend of Sally Bassett🪻](Second_page)*
 *   *[🥀The Story of Baba Anujka🥀_](Third_page)*
 
