@@ -1,7 +1,8 @@
---
-layout: page
-title:🥀The Story of Baba Anujka🥀
 ---
+layout: page
+title: 🥀 The Story of Baba Anujka 🥀
+---
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <table width="100%">
   <tr>
