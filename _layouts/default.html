@@ -2,21 +2,30 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>{{ page.title }} | {{ site.title }}</title>
-  <!-- Chargement du CSS du thème Alembic -->
+  
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <!-- Chargement de VOTRE CSS personnalisé pour le mode sombre -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
 
-  <!-- Bouton global du mode sombre (il s'affichera automatiquement sur CHAQUE page) -->
-  <div style="text-align: right; padding: 10px;">
-    <button id="theme-toggle">🌙 Mode Sombre</button>
+  
+  <div style="max-width: 800px; margin: 0 auto; padding: 10px 20px; text-align: right;">
+    <button id="theme-toggle" style="padding: 5px 10px; cursor: pointer;">🌙 Mode Sombre</button>
   </div>
 
-  <main>
-    {{ content }}
+ 
+  <main class="container py-4" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
   </main>
 
   <script>
@@ -26,13 +35,11 @@
 
       if (!toggleBtn) return;
 
-      // 1. Appliquer le mode sauvegardé immédiatement
       if (localStorage.getItem('theme') === 'dark') {
         body.classList.add('dark-mode');
         toggleBtn.textContent = '☀️ Mode Clair';
       }
 
-      // 2. Gérer le clic
       toggleBtn.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
@@ -47,3 +54,4 @@
   </script>
 </body>
 </html>
+
