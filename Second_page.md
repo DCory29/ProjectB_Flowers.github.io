@@ -59,27 +59,9 @@ Sally Bassett’s execution deeply shaped the cultural identity of Bermuda. Even
 In 2008, her status shifted from a historical criminal to an icon of freedom when the Bermudian government erected a 10-foot bronze monument titled **"The Spirit of Freedom"** in her honor on the grounds of the Cabinet Building in Hamilton.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -------------------------------
 
-*Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
+*Sources & Further Reading: [Enslaved.org]([https://nationalgeographic.com](https://enslaved.org/fullStory/16-23-126830/)) & [Wikipedia](https://wikipedia.org)*
 
 
 [Giulia's story](First_page.md) --- [Baba Anujka's story](Third_page)
