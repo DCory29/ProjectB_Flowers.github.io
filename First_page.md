@@ -35,15 +35,16 @@ The famous 1659 trial actually prosecuted Gironima Spana and her network, who ha
 It was seen by historians as a tragic, criminal response to a *suffocating patriarchal society*.
 
 
+<p align="center">
+  <img src="img/AquaTofana.png" alt="Aqua Tofana" width="60%">
+</p>
 
-## 💧 Aqua Tofana: The Perfect Weapon 💧
+### 💧 Aqua Tofana: The Perfect Weapon 💧
 Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
 She used a lethal mixture of arsenic, lead, and belladonna. Those ingredients were completely colorless, odorless, and tasteless, making it easy to blend into water or wine.
-Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless*
-
-image of fiole
-
+Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless*e.
 **The Disguise:** The poison was sold disguised as a cosmetic face cream or in devotional vials labeled "Manna of St. Nicholas of Bari" to evade the authorities.
+
 
 # 🥼 The Network and Impact 🥼
 Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
