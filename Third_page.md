@@ -39,7 +39,6 @@ Between the late 19th century and her arrest in 1928, her "Magic Water" is estim
 <p align="center">
   <img src="img/LAB.png" alt="LAB" width="60%">
 </p>
-
 ### An underground lab
 
 
@@ -60,11 +59,12 @@ While the heartbreak occurred, her primary operation was a lucrative, cold, and 
 She was caught via forensic science in 1928 when bodies were exhumed after a client (Stana Momirov) confessed under interrogation.
 Sentenced at age 90 to 15 years of hard labor. She was pardoned due to failing health after 8 years and died peacefully at home at 100 years old.
 
-
-
 ## 🌟 Legacy
 Baba Anujka remains a terrifying figure in Balkan folklore, often cited as a prime historical example of how traditional herbalism could be distorted into deadly molecular warfare. Today, criminologists study her case as one of history's most chilling examples of a contract poisoner operating entirely under the guise of a harmless grandmother.
 
+<p align="center">
+  <img src="img/Poison.png" alt="Poison" width="100%">
+</p>
 ---------
 *Sources & Further Reading: [All That's Interesting](https://allthatsinteresting.com/baba-anujka) & [Wikipedia](https://en.wikipedia.org/wiki/Baba_Anujka)*
 ---
