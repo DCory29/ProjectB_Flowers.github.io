@@ -1,0 +1,36 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Styles appliqués lorsque la classe dark-mode est active */
+body.dark-mode {
+  background-color: #0d1117 !important; /* Couleur de fond GitHub sombre */
+  color: #c9d1d9 !important;            /* Couleur de texte GitHub sombre */
+}
+
+body.dark-mode a {
+  color: #58a6ff !important;            /* Couleur des liens en mode sombre */
+}
+
+/* Style du bouton flottant discret */
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-family: sans-serif;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode #theme-toggle {
+  background-color: #21262d;
+  color: #c9d1d9;
+  border-color: #30363d;
+}
