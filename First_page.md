@@ -4,8 +4,8 @@ title:  🧪 The Legend of Giulia Tofana 🧪
 ---
 <table width="100%">
   <tr>
-    <td valign="top" width="60%">
-      <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="100%">
+    <td valign="top" width="40%">
+      <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="60%">
     </td>
     <td valign="top" width="40%">
       <h3> 🔥A powerful figure🔥</h3>
@@ -64,17 +64,12 @@ Rumor has it they built a secretive word-of-mouth network. Historical estimates 
   </tr>
 </table>
 
-## 🌟 Legacy and Pop Culture 🌟
-<table width="100%">
-  <tr>
-    <td valign="top" width="40%">
-      <p>The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer Wolfgang Amadeus Mozart famously claimed he was being poisoned with Aqua Tofana.</p>
-    </td>
-    <td valign="top" width="60%">
-      <img src="img/Legend.png" alt="Legend" width="100%">
-    </td>
-  </tr>
-</table>
+## 🌟 Legacy 🌟
+<p align="center">
+  <img src="img/Legend.png" alt="Legend" width="60%">
+</p>
+The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer Wolfgang Amadeus Mozart famously claimed he was being poisoned with Aqua Tofana.
+
 
 ***
 *Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
