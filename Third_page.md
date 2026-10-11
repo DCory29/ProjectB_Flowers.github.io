@@ -5,7 +5,7 @@ title: The Legend of Baba Anujka
 <table width="100%">
   <tr>
     <td valign="top" width="60%">
-      <img src="img/BabaAnujka.png" alt="Baba Anujka" width="100%">
+      <img src="img/BabaAnujka.png" alt="Baba Anujka" width="90%">
     </td>
     <td valign="top" width="40%">
       <h3> 🔥Grandma cares🔥</h3>
