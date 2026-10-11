@@ -37,7 +37,7 @@ After the death of her wealthy husband, Anujka turned her cottage into a profita
 
 Between the late 19th century and her arrest in 1928, her "Magic Water" is estimated to have ended the lives of **50 to 150 men**—mostly abusive husbands or older family members holding inheritance.
 <p align="center">
-  <img src="img/LAB.png" alt="LAB" width="60%">
+  <img src="img/LAB.png" alt="LAB" width="100%">
 </p>
 ### An underground lab
 
