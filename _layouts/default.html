@@ -1,49 +1,15 @@
 ---
-layout: page
----
-
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
-<div style="max-width: 800px; margin: 0 auto; padding: 10px 20px; text-align: right;">
-  <button id="theme-toggle" style="padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: transparent; color: inherit;">🌙 Mode Sombre</button>
-</div>
-
-{{ content }}
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const body = document.body;
-
-    if (!toggleBtn) return;
-
-    if (localStorage.getItem('theme') === 'dark') {
-      body.classList.add('dark-mode');
-      toggleBtn.textContent = '☀️ Mode Clair';
-    }
-
-    toggleBtn.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
-      if (body.classList.contains('dark-mode')) {
-        toggleBtn.textContent = '☀️ Mode Clair';
-        localStorage.setItem('theme', 'dark');
-      } else {
-        toggleBtn.textContent = '🌙 Mode Sombre';
-        localStorage.setItem('theme', 'light');
-      }
-    });
-  });
-</script>
-
-
-
-
-
-
----
 layout: default
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- 1. LE SCRIPT ANTI-FLASH : Placé tout en haut, il s'exécute immédiatement -->
+<script>
+  // On vérifie tout de suite le localStorage avant que le HTML ne soit dessiné
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
+</script>
 
 <style>
   .leaf-container {
@@ -53,20 +19,19 @@ layout: default
     width: 100%;
     height: 100%;
     overflow: hidden;
-    pointer-events: none; 
-    z-index: 9999; 
+    pointer-events: none;
+    z-index: 9999;
   }
 
   .leaf {
     position: absolute;
     top: -50px;
-    font-size: 24px; 
+    font-size: 24px;
     user-select: none;
     pointer-events: none;
     animation: fall linear infinite;
   }
 
-  
   @keyframes fall {
     0% {
       transform: translateY(0) rotate(0deg) translateX(0);
@@ -79,9 +44,7 @@ layout: default
   }
 </style>
 
-
 <div class="leaf-container" id="leaf-container"></div>
-
 
 <div style="max-width: 800px; margin: 0 auto; padding: 15px 20px; text-align: right;">
   <button id="theme-toggle" style="padding: 5px 12px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: transparent; color: inherit;">🌙 Mode Sombre</button>
@@ -91,16 +54,15 @@ layout: default
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // ---------------------------------------------
-    // LOGIQUE DU MODE SOMBRE (Déjà existante)
-    // ---------------------------------------------
     const toggleBtn = document.getElementById('theme-toggle');
     const body = document.body;
+
     if (toggleBtn) {
-      if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-mode');
+      // Met à jour le texte du bouton selon l'état actuel défini par le script du haut
+      if (body.classList.contains('dark-mode')) {
         toggleBtn.textContent = '☀️ Mode Clair';
       }
+
       toggleBtn.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
@@ -113,42 +75,27 @@ layout: default
       });
     }
 
-    // ---------------------------------------------
-    // LOGIQUE DE L'ANIMATION DES FEUILLES
-    // ---------------------------------------------
+    // L'animation des feuilles ne se lance qu'une fois la page stable
     const container = document.getElementById('leaf-container');
-    
     const leaves = ['🍁', '🍂', '🍃', '🌱']; 
 
     function createLeaf() {
       const leaf = document.createElement('div');
       leaf.classList.add('leaf');
-      
-      // Choisir une feuille au hasard
       leaf.innerText = leaves[Math.floor(Math.random() * leaves.length)];
-      
-      
       leaf.style.left = Math.random() * 100 + 'vw';
-      
-      
       const duration = Math.random() * 5 + 5;
       leaf.style.animationDuration = duration + 's';
-      
-      
       leaf.style.fontSize = Math.random() * 15 + 15 + 'px';
-      
-     
       leaf.style.opacity = Math.random() * 0.7 + 0.3;
 
       container.appendChild(leaf);
 
-     
       setTimeout(() => {
         leaf.remove();
       }, duration * 1000);
     }
 
-    // Crée une nouvelle feuille toutes les 400 millisecondes (ajustez pour plus ou moins de feuilles)
     setInterval(createLeaf, 400);
   });
 </script>
