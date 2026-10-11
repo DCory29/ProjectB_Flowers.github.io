@@ -9,12 +9,11 @@ title: "🪻 The Legend of Sally Bassett 🪻"
       <img src="img/SallyBasset.png" alt="Sally Basset" width="90%">
     </td>
     <td valign="top" width="40%">
-      <h3>🔥Symbol of Resistance🔥</h3>
+      <h3>Symbol of Resistance</h3>
       <p>**Sarah "Sally" Bassett** who was born around 1700 1730 was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.</p>
     </td>
   </tr>
 </table>
-**📖 The poisoner who freed 📖**
 
 
 
