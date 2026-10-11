@@ -61,7 +61,7 @@ In 2008, her status shifted from a historical criminal to an icon of freedom whe
 
 -------------------------------
 
-*Sources & Further Reading: [Enslaved](https://enslaved.org/fullStory/16-23-126830/) & [Wikipedia](https://wikipedia.org)*
+*Sources & Further Reading: [Enslaved.org](https://enslaved.org/fullStory/16-23-126830/) & [Wikipedia](https://wikipedia.org)*
 
 
 [Giulia's story](First_page.md) --- [Baba Anujka's story](Third_page)
