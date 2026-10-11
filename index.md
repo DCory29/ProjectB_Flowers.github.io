@@ -1,11 +1,12 @@
 --
+layout : Default
 title: Accueil
 ---
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 # Project Poisonous Flowers
 <p align="center">
-   <img src="./img/Poisonous.png" width="320" height="342">
+   <img src="./img/Poisonous.png" width="620" height="342">
 </p>
  
   > *For centuries, women have been compared to flowers.*
