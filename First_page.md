@@ -48,10 +48,21 @@ Administered a few drops at a time over several days, it mimicked a slow, natura
 </table>
 
 
-# 🥼 The Network and Impact 🥼
+<table width="100%">
+  <tr>
+    <td valign="top" width="40%">
+      <h3>🥼 The Network and Impact 🥼</h3>
+      <p>Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
 Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
 
 Rumor has it they built a secretive word-of-mouth network. Historical estimates (largely derived from later trials) attribute the deaths of **over 600 men**—mostly abusive husbands—to her poison between 1633 and 1651.
+</p>
+    </td>
+    <td valign="top" width="60%">
+      <img src="img/GiuliaAccomplice.png" alt="Giulia Accomplice" width="100%">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="img/Legend.png" alt="Legend" width="60%">
