@@ -36,7 +36,7 @@ It was seen by historians as a tragic, criminal response to a *suffocating patri
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <h3>💧 Aqua Tofana: The Perfect Weapon 💧</h3>
+      <h3>💧 The Perfect Weapon </h3>
       <p>Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
 She used a lethal mixture of arsenic, lead, and belladonna. Those ingredients were completely colorless, odorless, and tasteless, making it easy to blend into water or wine.
 Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless*e.
@@ -52,7 +52,7 @@ Administered a few drops at a time over several days, it mimicked a slow, natura
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <h3>🥼 The Network and Impact 🥼</h3>
+      <h3>🥼 The Network and Impact </h3>
       <p>Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
 Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
 
@@ -65,12 +65,17 @@ Rumor has it they built a secretive word-of-mouth network. Historical estimates 
   </tr>
 </table>
 
-<p align="center">
-  <img src="img/Legend.png" alt="Legend" width="60%">
-</p>
-
-### 🌟 Legacy and Pop Culture 🌟
-The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer **Wolfgang Amadeus Mozart** famously claimed he was being poisoned with Aqua Tofana.
+<table width="100%">
+  <tr>
+    <td valign="top" width="40%">
+      <h3>🌟 Legacy and Pop Culture 🌟</h3>
+      <p>The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer **Wolfgang Amadeus Mozart** famously claimed he was being poisoned with Aqua Tofana.</p>
+    </td>
+    <td valign="top" width="60%">
+      <img src="img/Legend.png" alt="Legend" width="100%">
+    </td>
+  </tr>
+</table>
 
 ***
 *Sources & Further Reading: [National Geographic](https://nationalgeographic.com) & [Wikipedia](https://wikipedia.org)*
