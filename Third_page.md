@@ -69,3 +69,27 @@ Baba Anujka remains a terrifying figure in Balkan folklore, often cited as a pri
 *Sources & Further Reading: [All That's Interesting](https://allthatsinteresting.com/baba-anujka) & [Wikipedia](https://en.wikipedia.org/wiki/Baba_Anujka)*
 ---
 [Giulia's story](First_page)---[Sally Basset's story](Second_page)
+---
+
+<button id="theme-toggle">🌙 Mode Sombre</button>
+
+<script>
+  const toggleBtn = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark-mode');
+    toggleBtn.textContent = '☀️ Mode Clair';
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    if (body.classList.contains('dark-mode')) {
+      toggleBtn.textContent = '☀️ Mode Clair';
+      localStorage.setItem('theme', 'dark');
+    } else {
+      toggleBtn.textContent = '🌙 Mode Sombre';
+      localStorage.setItem('theme', 'light');
+    }
+  });
+</script>
