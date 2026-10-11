@@ -14,23 +14,37 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <style>
   
-  .post-content img, article img, p img {
-    max-width: 85% !important;
+  .post-content img, .page img, article img {
+    max-width: 80% !important;
     height: auto !important;
-    margin: 25px auto !important;
+    margin: 30px auto !important;
     display: block !important;
+    border-radius: 6px;
+  }
+  
+  .post-content p {
+    margin-bottom: 1.5rem !important;
+    line-height: 1.6 !important;
   }
 </style>
 
 
-<div style="max-width: 48rem; margin: 0 auto; padding: 10px 20px; text-align: right;">
+<div style="max-width: 50rem; margin: 0 auto; padding: 10px 20px; text-align: right;">
   <button id="theme-toggle" style="padding: 5px 12px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc; background: transparent; color: inherit; font-size: 0.9rem;">
     🌙 Mode Sombre
   </button>
 </div>
 
 
-{{ content }}
+<article class="container post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
 
 
 <script>
@@ -39,7 +53,7 @@ layout: default
     const htmlEl = document.documentElement;
     const bodyEl = document.body;
 
-   
+    
     if (htmlEl.classList.contains('dark-mode')) {
       bodyEl.classList.add('dark-mode');
       if (toggleBtn) toggleBtn.textContent = '☀️ Mode Clair';
@@ -49,7 +63,6 @@ layout: default
       toggleBtn.addEventListener('click', () => {
         htmlEl.classList.toggle('dark-mode');
         bodyEl.classList.toggle('dark-mode');
-        
         if (htmlEl.classList.contains('dark-mode')) {
           toggleBtn.textContent = '☀️ Mode Clair';
           localStorage.setItem('theme', 'dark');
@@ -74,12 +87,8 @@ layout: default
         leaf.style.animationDuration = duration + 's';
         leaf.style.fontSize = Math.random() * 10 + 14 + 'px';
         leaf.style.opacity = Math.random() * 0.6 + 0.3;
-
         container.appendChild(leaf);
-
-        setTimeout(() => {
-          leaf.remove();
-        }, duration * 1000);
+        setTimeout(() => { leaf.remove(); }, duration * 1000);
       }
       setInterval(createLeaf, 450);
     }
