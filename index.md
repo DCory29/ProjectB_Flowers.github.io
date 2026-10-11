@@ -6,7 +6,7 @@ title: Accueil
 
 # Project Poisonous Flowers
 <p align="center">
-   <img src="./img/Poisonous.png" width="820" height="342">
+   <img src="./img/Poisonous.png" width="820" height="542">
 </p>
  
   > *For centuries, women have been compared to flowers.*
