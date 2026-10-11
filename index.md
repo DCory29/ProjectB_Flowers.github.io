@@ -1,14 +1,15 @@
 ---
-layout: page
-title: Accueil
+layout: default
 ---
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 # Project Poisonous Flowers
 <p align="center">
 
 
 
 
-   <img src="./img/ROSE.png" width="220" height="242">
+   <img src="./img/ROSE.png" width="120" height="142">
 </p>
 <br>
  
