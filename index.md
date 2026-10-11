@@ -10,7 +10,7 @@ title: Accueil
 </p>
  
   > *For centuries, women have been compared to flowers.*
-> *Little did they know they were not so wrong to make such an accurate comparison. Much like the most captivating flora in nature, women possess a breathtaking beauty—but when threatened, some carry a lethal defense. On this site, you'll find three stories of three women who turned the traditional symbol of femininity into a weapon of survival, rebellion, and ultimate power*
+> *Little did they know they were not so wrong to make such an accurate comparison. Much like the most captivating flora in nature, women possess a breathtaking beauty—but when threatened, some carry a lethal defense. On this site, you'll find three stories of three women who turned the traditional symbol of femininity into a weapon of survival, rebellion, and ultimate power.*
 
 
 
