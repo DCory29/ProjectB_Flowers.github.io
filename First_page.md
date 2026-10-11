@@ -3,7 +3,7 @@ layout: page
 title:  🧪 The Legend of Giulia Tofana 🧪
 ---
 
-# 📖 The poisoner who saved hundreds of lives 📖
+# The poisoner who saved hundreds of lives 📖
 
 **Giulia Tofana** who was born around the year 1620 and who died in 1651 in Italy is a fascinating figure of the 17th-century. She is remembered for orchestrating one of the most prolific poisoning networks in early modern Europe. In an era where women did not have many legal rights and thus were often trapped in abusive marriages. She provided a lethal escape route for hundreds of desperate wives.
 
