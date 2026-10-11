@@ -4,7 +4,7 @@ title:  🧪 The Legend of Giulia Tofana 🧪
 ---
 <table width="100%">
   <tr>
-    <td valign="top" width="40%">
+    <td valign="top" width="50%">
       <img src="img/GiuliaTofana.png" alt="Giulia Tofana" width="60%">
     </td>
     <td valign="top" width="40%">
@@ -66,7 +66,7 @@ Rumor has it they built a secretive word-of-mouth network. Historical estimates 
 
 ## 🌟 Legacy 🌟
 <p align="center">
-  <img src="img/Legend.png" alt="Legend" width="60%">
+  <img src="img/Legend.png" alt="Legend" width="100%">
 </p>
 The impact of Aqua Tofana echoed through the centuries. It heavily influenced France's infamous "Affair of the Poisons" during the reign of Louis XIV. Decades later, while on his deathbed in 1791, the legendary composer Wolfgang Amadeus Mozart famously claimed he was being poisoned with Aqua Tofana.
 
