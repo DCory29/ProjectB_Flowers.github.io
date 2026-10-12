@@ -36,10 +36,10 @@ It was seen by historians as a tragic, criminal response to a *suffocating patri
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <p>Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
+      <p>Giulia formulated a deadly poison known as <strong>Aqua Tofana</strong>. Its unique properties made it the ultimate tool for the perfect crime:
 She used a lethal mixture of arsenic, lead, and belladonna. Those ingredients were completely colorless, odorless, and tasteless, making it easy to blend into water or wine.
-Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless*e.
-**The Disguise:** The poison was sold disguised as a cosmetic face cream or in devotional vials labeled "Manna of St. Nicholas of Bari" to evade the authorities.</p>
+Administered a few drops at a time over several days, it mimicked a slow, natural illness, leaving 17th-century doctors clueless.
+<strong>The Disguise:</strong> The poison was sold disguised as a cosmetic face cream or in devotional vials labeled "Manna of St. Nicholas of Bari" to evade the authorities.</p>
     </td>
     <td valign="top" width="60%">
       <img src="img/AquaTofana.png" alt="Aqua Tofana" width="100%">
@@ -51,10 +51,10 @@ Administered a few drops at a time over several days, it mimicked a slow, natura
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <p>Giulia formulated a deadly poison known as **Aqua Tofana**. Its unique properties made it the ultimate tool for the perfect crime:
-Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) **Gironima Spana**. 
+      <p>Giulia formulated a deadly poison known as <strong>Aqua Tofana</strong>. Its unique properties made it the ultimate tool for the perfect crime:
+Operating first in Palermo and later in Rome, Giulia did not work alone. She surrounded herself with a trusted inner circle of women, including her stepdaughter (or close associate) <strong>Gironima Spana</strong>. 
 
-Rumor has it they built a secretive word-of-mouth network. Historical estimates (largely derived from later trials) attribute the deaths of **over 600 men**—mostly abusive husbands—to her poison between 1633 and 1651.
+Rumor has it they built a secretive word-of-mouth network. Historical estimates (largely derived from later trials) attribute the deaths of <strong>over 600 men</strong>—mostly abusive husbands—to her poison between 1633 and 1651.
 </p>
     </td>
     <td valign="top" width="60%">
@@ -76,64 +76,3 @@ The impact of Aqua Tofana echoed through the centuries. It heavily influenced Fr
 ***
 [Sally Basset's story](Second_page) --- [Baba Anujka's story](Third_page)
 ---
-
-
-<div id="leaf-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: 9999;"></div>
-
-
-<button id="theme-toggle">🌙 Mode Sombre</button>
-
-<script>
-  
-  (function() {
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.classList.add('dark-mode');
-    }
-  })();
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const htmlEl = document.documentElement;
-    const bodyEl = document.body;
-
-    // Synchronisation du bouton et de l'état
-    if (htmlEl.classList.contains('dark-mode')) {
-      bodyEl.classList.add('dark-mode');
-      if (toggleBtn) toggleBtn.textContent = '☀️ Mode Clair';
-    }
-
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', () => {
-        htmlEl.classList.toggle('dark-mode');
-        bodyEl.classList.toggle('dark-mode');
-        if (htmlEl.classList.contains('dark-mode')) {
-          toggleBtn.textContent = '☀️ Mode Clair';
-          localStorage.setItem('theme', 'dark');
-        } else {
-          toggleBtn.textContent = '🌙 Mode Sombre';
-          localStorage.setItem('theme', 'light');
-        }
-      });
-    }
-
-    
-    const container = document.getElementById('leaf-container');
-    const leaves = ['🍁', '🍂', '🍃', '🌱']; 
-
-    if (container) {
-      function createLeaf() {
-        const leaf = document.createElement('div');
-        leaf.classList.add('leaf');
-        leaf.innerText = leaves[Math.floor(Math.random() * leaves.length)];
-        leaf.style.left = Math.random() * 100 + 'vw';
-        const duration = Math.random() * 5 + 5;
-        leaf.style.animationDuration = duration + 's';
-        leaf.style.fontSize = Math.random() * 10 + 14 + 'px';
-        leaf.style.opacity = Math.random() * 0.6 + 0.3;
-        container.appendChild(leaf);
-        setTimeout(() => { leaf.remove(); }, duration * 1000);
-      }
-      setInterval(createLeaf, 450);
-    }
-  });
-</script>
