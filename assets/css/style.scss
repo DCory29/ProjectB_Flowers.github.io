@@ -1,16 +1,12 @@
 ---
 ---
-html.dark-mode body, html.dark-mode, body.dark-mode {
-  background-color: #0d1117 !important; 
-  color: #c9d1d9 !important;            
-}
+// Alembic ne charge QUE ce fichier (assets/styles.scss).
+// Le @import ci-dessous conserve tout le style du thème ; nos règles viennent ensuite.
+@import "alembic";
 
-
-html.dark-mode a, body.dark-mode a {
-  color: #58a6ff !important;            
-}
-
-
+/* =========================================================
+   Images
+   ========================================================= */
 .post-content img, article img, p img, td img {
   max-width: 85% !important;
   height: auto !important;
@@ -18,7 +14,44 @@ html.dark-mode a, body.dark-mode a {
   display: block !important;
 }
 
+/* =========================================================
+   Feuilles qui tombent
+   ========================================================= */
+#leaf-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;   // ne bloque jamais les clics
+  z-index: 900;
+}
 
+.leaf {
+  position: absolute;
+  top: -40px;
+  line-height: 1;
+  user-select: none;
+  will-change: transform, opacity;
+  animation-name: leaf-fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+// --drift, --spin et --op sont définis au hasard pour chaque feuille par theme.js
+@keyframes leaf-fall {
+  0%   { transform: translate3d(0, -10vh, 0) rotate(0deg);                          opacity: 0; }
+  10%  { opacity: var(--op, 0.7); }
+  25%  { transform: translate3d(var(--drift), 25vh, 0) rotate(calc(var(--spin) * 0.25)); }
+  50%  { transform: translate3d(calc(var(--drift) * -0.5), 55vh, 0) rotate(calc(var(--spin) * 0.5)); }
+  75%  { transform: translate3d(var(--drift), 85vh, 0) rotate(calc(var(--spin) * 0.75)); opacity: var(--op, 0.7); }
+  100% { transform: translate3d(0, 112vh, 0) rotate(var(--spin));                   opacity: 0; }
+}
+
+/* =========================================================
+   Bouton de bascule clair / sombre
+   ========================================================= */
 #theme-toggle {
   position: fixed;
   bottom: 20px;
@@ -29,14 +62,104 @@ html.dark-mode a, body.dark-mode a {
   background-color: #fff;
   color: #333;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   font-family: sans-serif;
-  z-index: 9999;
-  transition: all 0.3s ease;
+  font-size: 14px;
+  z-index: 1000;          // au-dessus des feuilles
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-html.dark-mode #theme-toggle, body.dark-mode #theme-toggle {
+#theme-toggle:focus-visible {
+  outline: 3px solid #58a6ff;
+  outline-offset: 2px;
+}
+
+/* =========================================================
+   Mode sombre
+   La classe .dark-mode est posée sur <html> (voir site-before-start.html).
+   Les !important sont nécessaires pour passer devant les styles d'Alembic.
+   ========================================================= */
+html.dark-mode {
+  --bg: #0d1117;
+  --bg-soft: #161b22;
+  --text: #c9d1d9;
+  --border: #30363d;
+  --link: #58a6ff;
+  color-scheme: dark;     // scrollbars et champs de formulaire en sombre
+}
+
+html, body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+// Fond et texte, y compris les grandes zones structurelles du thème
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode header,
+html.dark-mode footer,
+html.dark-mode main,
+html.dark-mode nav,
+html.dark-mode aside,
+html.dark-mode article,
+html.dark-mode section {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode h6,
+html.dark-mode p,
+html.dark-mode li,
+html.dark-mode td,
+html.dark-mode th,
+html.dark-mode strong,
+html.dark-mode em,
+html.dark-mode figcaption {
+  color: var(--text) !important;
+}
+
+html.dark-mode a {
+  color: var(--link) !important;
+}
+
+html.dark-mode hr,
+html.dark-mode table,
+html.dark-mode th,
+html.dark-mode td {
+  border-color: var(--border) !important;
+}
+
+html.dark-mode blockquote {
+  background-color: var(--bg-soft) !important;
+  border-color: var(--border) !important;
+  color: var(--text) !important;
+}
+
+html.dark-mode pre,
+html.dark-mode code {
+  background-color: var(--bg-soft) !important;
+  color: var(--text) !important;
+}
+
+// Images légèrement adoucies pour ne pas éblouir sur fond sombre
+html.dark-mode img {
+  filter: brightness(0.9);
+}
+
+html.dark-mode #theme-toggle {
   background-color: #21262d !important;
-  color: #c9d1d9 !important;
-  border-color: #30363d !important;
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+/* =========================================================
+   Accessibilité : pas d'animation si l'utilisateur la désactive
+   ========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  #leaf-container { display: none; }
+  html, body, #theme-toggle { transition: none; }
 }
