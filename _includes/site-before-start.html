@@ -1,0 +1,13 @@
+<script>
+  /* Applique le thème sombre avant l'affichage de la page (évite le flash blanc).
+     Priorité : choix mémorisé > préférence du système. */
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.classList.add('dark-mode');
+      }
+    } catch (e) { /* stockage indisponible : on garde le thème clair */ }
+  })();
+</script>
