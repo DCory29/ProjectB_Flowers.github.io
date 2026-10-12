@@ -86,7 +86,3 @@ title: Accueil
     }
   });
 </script>
-      setInterval(createLeaf, 450);
-    }
-  });
-</script>
