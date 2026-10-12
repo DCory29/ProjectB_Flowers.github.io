@@ -9,7 +9,7 @@ title: "🪻 The Legend of Sally Bassett 🪻"
     </td>
     <td valign="top" width="40%">
       <h3>Symbol of Resistance</h3>
-      <p>**Sarah "Sally" Bassett** who was born around 1700 1730 was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.</p>
+      <p><strong>Sarah "Sally" Bassett</strong> who was born around 1700 1730 was an elderly, mixed-race enslaved woman in Bermuda whose life and execution made her one of the most powerful symbols of anti-slavery defiance in the Caribbean. At a time when enslaved people possessed absolutely no rights, her story chronicles a dark and complex form of resistance against colonial oppression.</p>
     </td>
   </tr>
 </table>
@@ -40,7 +40,8 @@ Legend says that when her ashes cleared, the Bermudiana (Bermuda’s national pu
 In December 1729, Sally was accused of plotting to kill her granddaughter’s enslavers, Thomas and Sarah Foster, as well as an enslaved domestic woman named Nancey. The tools of the alleged crime relied heavily on traditional knowledge of regional toxins:
 She used a combination of *ratsbane* (arsenic), *manchineel root* (a highly toxic tree native to the Caribbean), and a substance referred to in court as *"white toad"*.
 Sally allegedly smuggled these lethal powders to her granddaughter, Beck, with instructions on how to lace the household's food and belongings.
-Nancey discovered the poison, fell severely ill along with the Fosters, and alerted the local colonial authorities.</p>
+Nancey discovered the poison, fell severely ill along with the Fosters, and alerted the local colonial authorities.
+
 <p align="center">
   <img src="img/WhiteToad.png" alt="WhiteToad" width="100%">
 </p>
@@ -63,67 +64,6 @@ In 2008, her status shifted from a historical criminal to an icon of freedom whe
 *Sources & Further Reading: [Enslaved.org](https://enslaved.org/fullStory/16-23-126830/) & [Wikipedia](https://wikipedia.org)*
 
 
-[Giulia's story](First_page.md) --- [Baba Anujka's story](Third_page)
+[Giulia's story](First_page) --- [Baba Anujka's story](Third_page)
 
 ---
-
-
-<div id="leaf-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: 9999;"></div>
-
-
-<button id="theme-toggle">🌙 Mode Sombre</button>
-
-<script>
-  
-  (function() {
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.classList.add('dark-mode');
-    }
-  })();
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const htmlEl = document.documentElement;
-    const bodyEl = document.body;
-
-    // Synchronisation du bouton et de l'état
-    if (htmlEl.classList.contains('dark-mode')) {
-      bodyEl.classList.add('dark-mode');
-      if (toggleBtn) toggleBtn.textContent = '☀️ Mode Clair';
-    }
-
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', () => {
-        htmlEl.classList.toggle('dark-mode');
-        bodyEl.classList.toggle('dark-mode');
-        if (htmlEl.classList.contains('dark-mode')) {
-          toggleBtn.textContent = '☀️ Mode Clair';
-          localStorage.setItem('theme', 'dark');
-        } else {
-          toggleBtn.textContent = '🌙 Mode Sombre';
-          localStorage.setItem('theme', 'light');
-        }
-      });
-    }
-
-    
-    const container = document.getElementById('leaf-container');
-    const leaves = ['🍁', '🍂', '🍃', '🌱']; 
-
-    if (container) {
-      function createLeaf() {
-        const leaf = document.createElement('div');
-        leaf.classList.add('leaf');
-        leaf.innerText = leaves[Math.floor(Math.random() * leaves.length)];
-        leaf.style.left = Math.random() * 100 + 'vw';
-        const duration = Math.random() * 5 + 5;
-        leaf.style.animationDuration = duration + 's';
-        leaf.style.fontSize = Math.random() * 10 + 14 + 'px';
-        leaf.style.opacity = Math.random() * 0.6 + 0.3;
-        container.appendChild(leaf);
-        setTimeout(() => { leaf.remove(); }, duration * 1000);
-      }
-      setInterval(createLeaf, 450);
-    }
-  });
-</script>
