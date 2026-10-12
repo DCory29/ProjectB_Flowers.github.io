@@ -1,5 +1,5 @@
 <div id="leaf-container" aria-hidden="true"></div>
-<button id="theme-toggle" type="button" aria-pressed="false">🌙 Mode Sombre</button>
+<button id="theme-toggle" type="button" aria-pressed="false">🌙 Join the obscurity</button>
 
 <script>
 (function () {
@@ -14,7 +14,7 @@
   if (toggle) {
     var render = function () {
       var dark = isDark();
-      toggle.textContent = dark ? '☀️ Mode Clair' : '🌙 Mode Sombre';
+      toggle.textContent = dark ? '☀️ Join the light' : '🌙 Join the obscurity';
       toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
     };
     toggle.addEventListener('click', function () {
