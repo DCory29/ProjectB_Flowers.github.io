@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "🧪 The Legend of Giulia Tofana 🧪"
 ---
 <table width="100%">
