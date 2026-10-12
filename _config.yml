@@ -8,11 +8,13 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Configuration automatique du menu d'Alembic
-navigation:
+# Menu d'Alembic : la clé s'appelle navigation_header (et non "navigation")
+navigation_header:
   - title: Accueil
     url: /
-  - title: Première Page
-    url: /First_page/
-  - title: Contact
-    url: /contact/
+  - title: Giulia Tofana
+    url: /First_page
+  - title: Sally Bassett
+    url: /Second_page
+  - title: Baba Anujka
+    url: /Third_page
