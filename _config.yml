@@ -8,7 +8,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-# Menu d'Alembic : la clé s'appelle navigation_header (et non "navigation")
+# Menu d'Alembic
 navigation_header:
   - title: Accueil
     url: /
@@ -18,3 +18,5 @@ navigation_header:
     url: /Second_page
   - title: Baba Anujka
     url: /Third_page
+  - title: Contact
+    url: /contact
