@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 🥀 The Story of Baba Anujka 🥀
 ---
 <table width="100%">
