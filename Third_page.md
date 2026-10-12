@@ -9,7 +9,7 @@ title: 🥀 The Story of Baba Anujka 🥀
     </td>
     <td valign="top" width="40%">
       <h3> A Great Scientist</h3>
-      <p>**Ana di Pištonja** (c. 1836/1838 – 1938), widely feared as **Baba Anujka** or the "Witch of Vladimirovac," was a Serbo-Romanian amateur chemist and convicted serial killer. Operating out of her home laboratory in a quiet village in modern-day Serbia, she became one of the world's oldest and most prolific female serial killers by offering a invisible chemical solution to unhappy wives.</p>
+      <p><strong>Ana di Pištonja</strong> (c. 1836/1838 – 1938), widely feared as <strong>Baba Anujka</strong> or the "Witch of Vladimirovac," was a Serbo-Romanian amateur chemist and convicted serial killer. Operating out of her home laboratory in a quiet village in modern-day Serbia, she became one of the world's oldest and most prolific female serial killers by offering a invisible chemical solution to unhappy wives.</p>
     </td>
   </tr>
 </table>
@@ -20,9 +20,9 @@ title: 🥀 The Story of Baba Anujka 🥀
 <table width="100%">
   <tr>
     <td valign="top" width="40%">
-      <p>Baba Anujka was highly educated, spoke five languages, and possessed an advanced understanding of chemistry and herbal medicine. She weaponized this knowledge into a concoction she named **"Magic Water"** (or *bajana vodica*):
+      <p>Baba Anujka was highly educated, spoke five languages, and possessed an advanced understanding of chemistry and herbal medicine. She weaponized this knowledge into a concoction she named <strong>"Magic Water"</strong> (or <em>bajana vodica</em>):
 It was a highly concentrated and lethal mixture of arsenic, zinc, lead, and toxic plant extracts like belladonna.
-When a client approached her, Anujka would ask: *"How heavy is that problem?"* She was not asking about the emotional burden, but the actual body weight of the target to calculate the perfect lethal dose.
+When a client approached her, Anujka would ask: <em>"How heavy is that problem?"</em> She was not asking about the emotional burden, but the actual body weight of the target to calculate the perfect lethal dose.
 The toxin was designed to kill the target after exactly 7 or 8 days, making the death look entirely like a natural stroke or heart failure.</p>
     </td>
     <td valign="top" width="60%">
@@ -66,63 +66,3 @@ Baba Anujka remains a terrifying figure in Balkan folklore, often cited as a pri
   <img src="img/Poison.png" alt="Poison" width="100%">
 </p>
 ---------
-
-<div id="leaf-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: 9999;"></div>
-
-
-<button id="theme-toggle">🌙 Mode Sombre</button>
-
-<script>
-  
-  (function() {
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.classList.add('dark-mode');
-    }
-  })();
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const htmlEl = document.documentElement;
-    const bodyEl = document.body;
-
-    // Synchronisation du bouton et de l'état
-    if (htmlEl.classList.contains('dark-mode')) {
-      bodyEl.classList.add('dark-mode');
-      if (toggleBtn) toggleBtn.textContent = '☀️ Mode Clair';
-    }
-
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', () => {
-        htmlEl.classList.toggle('dark-mode');
-        bodyEl.classList.toggle('dark-mode');
-        if (htmlEl.classList.contains('dark-mode')) {
-          toggleBtn.textContent = '☀️ Mode Clair';
-          localStorage.setItem('theme', 'dark');
-        } else {
-          toggleBtn.textContent = '🌙 Mode Sombre';
-          localStorage.setItem('theme', 'light');
-        }
-      });
-    }
-
-    
-    const container = document.getElementById('leaf-container');
-    const leaves = ['🍁', '🍂', '🍃', '🌱']; 
-
-    if (container) {
-      function createLeaf() {
-        const leaf = document.createElement('div');
-        leaf.classList.add('leaf');
-        leaf.innerText = leaves[Math.floor(Math.random() * leaves.length)];
-        leaf.style.left = Math.random() * 100 + 'vw';
-        const duration = Math.random() * 5 + 5;
-        leaf.style.animationDuration = duration + 's';
-        leaf.style.fontSize = Math.random() * 10 + 14 + 'px';
-        leaf.style.opacity = Math.random() * 0.6 + 0.3;
-        container.appendChild(leaf);
-        setTimeout(() => { leaf.remove(); }, duration * 1000);
-      }
-      setInterval(createLeaf, 450);
-    }
-  });
-</script>
