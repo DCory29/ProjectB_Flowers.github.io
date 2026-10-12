@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "🪻 The Legend of Sally Bassett 🪻"
 ---
 <table width="100%">
