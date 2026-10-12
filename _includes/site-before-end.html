@@ -1,3 +1,57 @@
 <div id="leaf-container" aria-hidden="true"></div>
 <button id="theme-toggle" type="button" aria-pressed="false">🌙 Mode Sombre</button>
-<script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+
+<script>
+(function () {
+  'use strict';
+  var root = document.documentElement;
+
+  /* ---------- Mode sombre ---------- */
+  function isDark() { return root.classList.contains('dark-mode'); }
+  function saveTheme(v) { try { localStorage.setItem('theme', v); } catch (e) {} }
+
+  var toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    var render = function () {
+      var dark = isDark();
+      toggle.textContent = dark ? '☀️ Mode Clair' : '🌙 Mode Sombre';
+      toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    };
+    toggle.addEventListener('click', function () {
+      root.classList.toggle('dark-mode');
+      saveTheme(isDark() ? 'dark' : 'light');
+      render();
+    });
+    render();
+  }
+
+  /* ---------- Feuilles qui tombent ---------- */
+  var container = document.getElementById('leaf-container');
+  var reduceMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (container && !reduceMotion) {
+    var LEAVES = ['🍁', '🍂', '🍃', '🌱'];
+    var MAX_LEAVES = 40;
+    var SPAWN_EVERY_MS = 450;
+    var rand = function (min, max) { return Math.random() * (max - min) + min; };
+    var sign = function () { return Math.random() < 0.5 ? -1 : 1; };
+
+    var createLeaf = function () {
+      if (document.hidden || container.childElementCount >= MAX_LEAVES) return;
+      var leaf = document.createElement('span');
+      leaf.className = 'leaf';
+      leaf.textContent = LEAVES[Math.floor(Math.random() * LEAVES.length)];
+      leaf.style.left = rand(0, 100) + 'vw';
+      leaf.style.fontSize = rand(14, 26) + 'px';
+      leaf.style.animationDuration = rand(7, 13) + 's';
+      leaf.style.setProperty('--drift', (rand(30, 90) * sign()) + 'px');
+      leaf.style.setProperty('--spin', (rand(180, 540) * sign()) + 'deg');
+      leaf.style.setProperty('--op', rand(0.35, 0.85).toFixed(2));
+      leaf.addEventListener('animationend', function () { leaf.remove(); });
+      container.appendChild(leaf);
+    };
+    setInterval(createLeaf, SPAWN_EVERY_MS);
+  }
+})();
+</script>
